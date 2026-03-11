@@ -1,0 +1,38 @@
+═══════════════════════════════════════
+HOW TO FIX "localhost refused to connect"
+═══════════════════════════════════════
+
+STEP 1: Close the browser tab showing the error
+
+STEP 2: Double-click: START_NOW.bat
+
+STEP 3: Wait for "SERVER IS RUNNING!" message
+
+STEP 4: Browser opens automatically - NO MORE ERROR!
+
+═══════════════════════════════════════
+
+WHAT START_NOW.bat DOES:
+1. Stops old servers
+2. Checks Node.js
+3. Installs dependencies if needed
+4. Starts server on port 8080
+5. Waits for server to be ready
+6. Opens browser automatically
+
+═══════════════════════════════════════
+
+IMPORTANT:
+- Keep the server window open!
+- Don't close it while using the app
+- Wait 10-20 seconds for first start
+
+═══════════════════════════════════════
+
+IF STILL SEEING ERROR:
+1. Check server window for errors
+2. Wait 10 more seconds
+3. Press F5 to refresh browser
+4. Run START_NOW.bat again
+
+═══════════════════════════════════════
